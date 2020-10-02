@@ -51,6 +51,13 @@ client.on("message", msg => {
     else if(msg.content === "!ms who is dwight?"){
         msg.reply("Assistant to the regional manager")
     }
+    
+    else if(msg.content === "!ms what'd you do, prison mike"){
+        msg.reply("I stole. And I robbed. And I kidnapped the president's son and held him for ransom.")
+    }
+    else if(msg.content === "!ms What's the very very worst thing about prison?"){
+        msg.reply("The worst thing about prison was the... was the Dementors. They... were flying all over the place, and they were scary. And they'd come down, and they'd suck the soul out of your body, and it hurt!")
+    }
 
 });
 
